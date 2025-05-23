@@ -36,6 +36,8 @@ Nach Konvention ist der **Name eines Pakets identisch mit dem letzten Element se
  	```go
   	import "math/rand"
 	```
+ import "math/rand"
+```
 
 Die Quelldateien dieses Pakets beginnen daher mit:
 ```go
