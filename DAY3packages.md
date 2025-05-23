@@ -1,4 +1,4 @@
-# 📦 Aufbau eines Go-Programms mit Paketen
+# 📦 Aufbau eines Go-Programms (Pakete)
 
 Jedes Go-Programm besteht aus **Paketen** (engl. packages), die einzelne Funktionseinheiten gruppieren. Pakete ermöglichen die Strukturierung und Wiederverwendbarkeit von Code.
 
