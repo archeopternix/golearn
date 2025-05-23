@@ -95,7 +95,7 @@ fmt.Println(ganz, rest) // Ausgabe: 4 1
 
 Mehrere Rückgabewerte machen den Code in Go klarer und vermeiden den Einsatz komplexer Strukturen oder spezieller Objekttypen wie in anderen Sprachen.
 
-Sehr häufig werden mehrere Rückgabeparameter verwendet um neben dem Ergebnis auch ein **error** Objket mitzugeben, dazu später aber mehr.
+Sehr häufig werden mehrere Rückgabeparameter verwendet um neben dem Ergebnis auch ein **error** Objekt mitzugeben, dazu später aber mehr.
 
 ## 📌 Fazit
 
