@@ -74,13 +74,33 @@ func mult(a, b int) (ergebnis int) {
 }
 ```
 
+## 🔁 Funktionen mit mehreren Rückgabewerten
+
+Go erlaubt es dir, **mehrere Werte gleichzeitig** aus einer Funktion zurückzugeben. Das ist besonders nützlich, wenn du neben einem Ergebnis auch einen Fehler oder zusätzliche Informationen liefern möchtest. Die Rückgabewerte werden in Klammern angegeben und durch Kommas getrennt.
+
+### Beispiel:
+```go
+func teile(a int) (int, int) {
+    return a / 2, a % 2
+}
+```
+
+Diese Funktion gibt sowohl den ganzzahligen Quotienten als auch den Rest einer Division zurück.
+
+### Aufruf:
+```go
+ganz, rest := teile(9)
+fmt.Println(ganz, rest) // Ausgabe: 4 1
+```
+
+Mehrere Rückgabewerte machen den Code in Go klarer und vermeiden den Einsatz komplexer Strukturen oder spezieller Objekttypen wie in anderen Sprachen.
+
+Sehr häufig werden mehrere Rückgabeparameter verwendet um neben dem Ergebnis auch ein **error** Objket mitzugeben, dazu später aber mehr.
+
 ## 📌 Fazit
-Funktionen definierst du mit dem Schlüsselwort func.
 
-Du kannst Parameter und Rückgabewerte festlegen.
-
-Go erlaubt mehrere Rückgabewerte.
-
-Funktionen sind erstklassige Objekte (du kannst sie als Werte speichern und übergeben).
-
-Funktionen sind ein idealer Einstieg, um Logik zu strukturieren und Code wiederverwendbar zu machen!
+- Funktionen definierst du mit dem Schlüsselwort `func`.
+- Du kannst **Parameter und Rückgabewerte** festlegen.
+- Go erlaubt **mehrere Rückgabewerte**.
+- Funktionen sind **erstklassige Objekte** (du kannst sie als Werte speichern und übergeben).
+- Funktionen sind ein idealer Einstieg, um **Logik zu strukturieren** und **Code wiederverwendbar** zu machen!
