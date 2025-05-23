@@ -68,3 +68,11 @@ So bleibt der Code übersichtlich, und es ist sofort klar, zu welchem Paket ein 
 	```
 	
 4. Klicke mehrmals auf „Run“, um dein Programm auszuführen. Beobachte wie sich die Zahl ändert
+
+Du stellst fest, dass sich die Zahl nicht ändert oder? Jetzt müssen wir auf Fehlersuche gehen!
+
+1. Frag den Agent: **"why is my random number not changing?"**
+2. Er findet denn Fehler passt den Code für Dich an.
+3. Klicke wieder mehrmals auf „Run“, um dein Programm auszuführen.
+
+**Fertig**: Ziel erreicht
