@@ -78,7 +78,7 @@ Du stellst fest, dass sich die Zahl nicht ändert oder? Jetzt müssen wir auf Fe
 
 **Fertig**: Ziel ist erreicht, die Zufallszahl ändert sich bei jedem Aufruf
 
-### Hintergrund des Fehlers 
+### 🐞 Fehler: Hintergründe 
 
 Der Zufallszahlengenerator braucht einen Startwert, der sich verändert sonst liefert er immer das gleiche Ergebnis.
 Dies is eine wesentliche Eigenschaft von Go, dass Funktionen nachvollziehbar sind und mit den gleichen Eingabewerten, die gleichen Ausgabewerte liefern)
