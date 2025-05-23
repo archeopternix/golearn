@@ -1,4 +1,4 @@
-# ❓ Bedingungen in Go: `if` und `if...else`
+# 🔸 Bedingungen in Go: `if` und `if...else`
 
 In Go kannst du mit `if`-Anweisungen den Ablauf deines Programms steuern – je nachdem, ob eine Bedingung **wahr (true)** oder **falsch (false)** ist.
 
@@ -60,14 +60,14 @@ if n := 7; n%2 == 1 {
 
 In diesem Fall ist `n` nicht ausserhalb der `if` Bedingung bekannt und kann nicht benutzt werden.
 
---
+---
 
 ### 📝 Aufgabe 1
 Erstelle ein Programm, das die Zahlen `1..100` durchläuft und jede Zahl die durch `5` ohne Rest teilbar ist per `fmt.Println()` ausdruckt.
 
 Du kannst mit `n%5 == 0` überprüfen ob eine Zahl durch 7 teilbar ist
 
---
+---
 
 ### ▶️ Lösung
 Bedenke, wenn es gefordert ist bis inklusive `100` die Zahlen zu durchlaufen, dass die Abbruchbedingung in der `for` Schleife `<=` (kleiner gleich) sein muss. 
@@ -88,7 +88,7 @@ func main() {
 
 Probiere aus was passiert wenn Du `<` (kleiner) in der Abbruchbedingung verwendest.
 
---
+---
 
 ### 📝 Aufgabe 2 (schwer)
 Erstelle ein Programm dass für jeden einzelnen Wert aus `numbers := []float64{2, 9, 16, 25, 50}` eine Funktion `func sqrt(x float64) float64` aufruft die
@@ -101,6 +101,7 @@ Wenn Du das nicht selbst lösen konntest, frag den Agenten in Replit:
 implement a square root calculation for the values 2, 9, 16, 25, 50 using Newton's formula
 ```
 
+Hier die fertige Lösung:
 ```go
 package main
 import (
@@ -132,6 +133,7 @@ func main() {
     }
 }
 ```
+---
 
 ## ✅ Best Practices
 
