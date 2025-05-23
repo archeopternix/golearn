@@ -21,12 +21,10 @@ Go erlaubt es, mit der import-Anweisung andere Pakete einzubinden. Wenn nur ein 
 In unserem Beispiel werden jedoch die Pakete `"fmt"` und `"math/rand"` verwendet.
 Diese werden jeweils in einer eigenen Zeile nach dem `import`-Statement und innerhalb einer runden Klammer eingebunden:
 
-  ```go
   import (
       "fmt"
       "math/rand"
   )
-```
 
 In diesem Fall wird das Paket "fmt" (für Formatierungen wie Println) und das Paket "math/rand" (für Zufallszahlen) eingebunden.
 
