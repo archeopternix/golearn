@@ -38,9 +38,9 @@ Bestehende Sprachen wie C++ boten zu viele Features (Templates, Vererbung, Präp
 
 ### 3. Fehlende native Concurrency-Unterstützung
 
-In modernen Netzwerkanwendungen ist **Parallelität** (Concurrency) entscheidend. Java und C++ unterstützen diese nur kompliziert mit Threads und Locks.
+Heutige Computer verfügen über viele "CPU-Kerne" und können viele Berechnungen parallel ausführen. Existierende Programmiersprachen wie Java und C++ unterstützen diese nur sehr kompliziert mit Threads und Locks. In modernen Internetanwendungen und beider Benutzung von Cloud Systemen ist diese **Parallelität** (Concurrency) entscheidend für hohe Geschwindigkeit und geringe Kosten. 
 
-➡️ **Ziel:** Native, einfache Parallelität mit **Goroutines** und **Channels** – inspiriert von CSP (Communicating Sequential Processes).
+➡️ **Ziel:** Eingebaute "Batteries included", einfache Parallelität mit **Goroutines** und **Channels** – inspiriert von CSP (Communicating Sequential Processes).
 
 ---
 
@@ -135,22 +135,23 @@ Go (Golang) ist aus mehreren Gründen eine ausgezeichnete Wahl für Programmiera
 
 ### 4. Statische Typisierung mit einfacher Fehlerbehandlung
 
-- Go ist statisch typisiert, das hilft, viele Fehler schon beim Kompilieren zu finden.
+- Go ist statisch typisiert, das heisst das Programm weiss ganz genau welche Arten von Werten gerade verarbeitet werden und welche Operationen darauf zulässig sind, das hilft, viele Fehler schon beim Erstellen des Program zu finden und nicht erst durch Abstürze des Computers.
 - Gleichzeitig ist das Typsystem einfach gestaltet und nicht zu kompliziert.
-- Die Fehlerbehandlung erfolgt explizit und nachvollziehbar (kein Ausnahme-Handling).
+- Die Fehlerbehandlung erfolgt explizit und nachvollziehbar.
 
 ---
 
 ### 5. Schnelle Kompilierung und Ausführung
 
-- Der Compiler arbeitet sehr schnell, Programme starten schnell.
+- Der Compiler arbeitet sehr schnell, Programme starten schnell. So kann man jede kleine Änderung sofort testen und muss nichtmehrere Minuten warten (wie in C++) bis man sieht ob noch ein Fehler drinnen ist oder nicht.
 - So bleibt das Feedback kurz, was besonders für Anfänger motivierend ist.
 
 ---
 
 ### 6. Umfangreiche Standardbibliothek
 
-- Go bringt viele nützliche Pakete direkt mit.
+- Go erweitert die Grundfähigkeiten der Sprache über Pakete (oder  Bibliotheken)
+- Hier bringt Go viele nützliche Pakete direkt schon mit.
 - Anfänger können schnell Programme schreiben, ohne viele externe Bibliotheken suchen zu müssen.
 
 ---
