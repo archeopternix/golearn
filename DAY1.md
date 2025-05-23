@@ -40,6 +40,7 @@ func main() {
 - Dies ist die **Hauptfunktion** eines Go-Programms.
 - Das Programm **startet immer bei `main()`**.
 - Sie muss im Paket `main` definiert sein.
+- Es darf in einem Programm immer nur eine func main() vorhanden sein
 
 ---
 

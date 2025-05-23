@@ -1,6 +1,7 @@
 # 📅 Tag 2: Go-Umgebung auf Replit einrichten
 
-Willkommen zum ersten Tag deines Go-Lernplans! Heute lernst du, wie du Go direkt im Browser mit Replit verwendest – ganz ohne Installation.
+Willkommen zum ersten Tag deines Go-Lernplans! Heute lernst du, wie du Go direkt im Browser mit Replit verwendest – ganz ohne Installation. 
+Als besonderer Bonus hilft Dir Replit mit einer KI Fehler zu finden und den Code sinnvoll zu ergänzen
 
 ---
 
@@ -19,7 +20,10 @@ Willkommen zum ersten Tag deines Go-Lernplans! Heute lernst du, wie du Go direkt
 1. Gehe zu [https://replit.com/](https://replit.com/)
 2. Klicke auf **"Sign up"** (oben rechts).
 3. Melde dich mit Google, GitHub oder E-Mail an.
-4. Folge den Anweisungen zur Kontoerstellung.
+4. Gibt Deinen Namen eine
+5. Wähle **Starter - Free**
+6. Wähle **Start creating ->**
+7. Trage **GoLearn** als AppName ein und klicke **Start building**
 
 > 💡 Replit ist kostenlos – ideal für den Einstieg in Go.
 
@@ -27,12 +31,13 @@ Willkommen zum ersten Tag deines Go-Lernplans! Heute lernst du, wie du Go direkt
 
 ## ✅ Schritt 2: Neues Go-Projekt starten
 
-1. Klicke oben links auf **"Create"**.
-2. Wähle als Sprache **Go**.
-3. Gib dem Projekt einen Namen, z. B. `hello-go`.
-4. Klicke auf **"Create Repl"`.
+1. Schreibe im AI Chat **"create a go hello world program"**.
+2. Klicke **Approve plan & start**
+3. Sobald die KI fertig ist klicke links auf das **Ordner** Symbol unter dem **Home** button
+4. Nun siehst die ein ausführlich kommentiertes **Hello World** Program in Go
 
-Du siehst jetzt eine Datei `main.go` mit folgendem Beispiel:
+
+Du siehst jetzt eine Datei `main.go` mit folgendem Inhalt (Kommentare hier weggelassen):
 
 ```go
 package main
@@ -49,8 +54,15 @@ func main() {
 ## ▶️ Schritt 3: Programm ausführen
 
 - Klicke oben auf **"Run"**.
+- Danach auf **Console**
 - In der Konsole erscheint: `Hello, world!`
 
 ---
 
-Bereit für die nächste Übung? Dann geht’s weiter mit Variablen und Konstanten in Go!
+## ▶️ Schritt 4: Ändere den Text und führe das Programm erneut aus
+
+- Ändere den Text in **Hello World!** in **fmt.Println("Hello, World!")** (beachte Du musst die doppelten Anführungszeichen stehen lassen, die zeigen Go, dass Du einen Text eingegeben hast)
+- Klicke oben auf **"Run"**.
+- Danach auf **Console**
+- In der Konsole erscheint Dein Text 
+
