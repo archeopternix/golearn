@@ -72,7 +72,27 @@ So bleibt der Code übersichtlich, und es ist sofort klar, zu welchem Paket ein 
 Du stellst fest, dass sich die Zahl nicht ändert oder? Jetzt müssen wir auf Fehlersuche gehen!
 
 1. Frag den Agent: **"why is my random number not changing?"**
-2. Er findet denn Fehler passt den Code für Dich an.
-3. Klicke wieder mehrmals auf „Run“, um dein Programm auszuführen.
+2. Er findet denn Fehler und passt den Code für Dich an.
+3. Klicke wieder mehrmals auf „Run“, um dein Programm auszuführen und beobachte wie sich die Zahl in der Konsole verändert
 
-**Fertig**: Ziel erreicht
+
+**Fertig**: Ziel ist erreicht, die Zufallszahl ändert sich bei jedem Aufruf
+
+### Hintergrund des Fehlers 
+
+Der Zufallszahlengenerator braucht einen Startwert, der sich verändert sonst liefert er immer das gleiche Ergebnis.
+Dies is eine wesentliche Eigenschaft von Go, dass Funktionen nachvollziehbar sind und mit den gleichen Eingabewerten, die gleichen Ausgabewerte liefern)
+
+Die KI hat hierzu vorgeschlagen den Startwert des Zufallszahlengenerator mit der aktuellen Zeit, die sich natürlich bei jedem Aufruf des Programss ändert, zu starten.
+```go
+rand.Seed(time.Now().UnixNano())   
+```
+
+Dafür benotigen wir aber auch das Paket **time** das die aktuell Zeit des Systems liefert und fügen dies in die imports hinzu:
+```go
+import (
+	"fmt"
+	"math/rand"
+	"time"
+)
+```
