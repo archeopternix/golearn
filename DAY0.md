@@ -100,7 +100,7 @@ Der **TIOBE-Index** misst die Popularität von Programmiersprachen basierend auf
 | 4          | 4           | —           | Java                      | 9.31%       | +0.62%      |
 | 5          | 5           | —           | C#                        | 4.22%       | -2.27%      |
 | 6          | 6           | —           | JavaScript                | 3.68%       | +0.66%      |
-| 7          | 8           | ↑           | Go                        | 2.70%       | +1.10%      |
+| **7**         | 8           | **↑**           | **Go**                        | **2.70%**       | **+1.10%**      |
 | 8          | 7           | ↓           | Visual Basic              | 2.62%       | +0.61%      |
 | 9          | 11          | ↑           | Delphi/Object Pascal      | 2.29%       | +1.05%      |
 | 10         | 9           | ↓           | SQL                       | 1.90%       | +0.45%      |
