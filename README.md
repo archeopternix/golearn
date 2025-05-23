@@ -18,13 +18,12 @@ Der Zeitaufwand bewegt sich zwischen 10-60 Minuten pro Tag.
 - [📌 Sichtbarkeit und exportierte Namen in Go](DAY3visibility.md)
 - [🔒 Konstanten in Go (Golang)](DAY4constants.md)
 - [📦 Variablen in Go](DAY4variables.md)
+- [🔄 Typkonvertierung in Go](DAY4typeconversions.md)
 
 
 ### Ressourcen
-- [Tour of Go](https://tour.golang.org/)
+- [Tour of Go - Basics](https://go.dev/tour/basics/1)
 
-### Übung
-- Kleines CLI-Tool: Hello World, Variablenformatierer
 
 ---
 
