@@ -13,19 +13,17 @@ package main
 ## 📥 Importe
 
 Go erlaubt es, mit der import-Anweisung andere Pakete einzubinden. Wenn nur ein Paket verwendet wird reicht folgende Form:
-
-  	```go
-  	import "fmt"
-	```
+```go
+import "fmt"
+```
 
 In unserem Beispiel werden jedoch die Pakete `"fmt"` und `"math/rand"` verwendet.
 Diese werden jeweils in einer eigenen Zeile nach dem `import`-Statement und innerhalb einer runden Klammer eingebunden:
-
-  ```go
-  import (
-      "fmt"
-      "math/rand"
-  )
+```go
+import (
+	"fmt"
+    "math/rand"
+)
 ```
 
 In diesem Fall wird das Paket "fmt" (für Formatierungen wie Println) und das Paket "math/rand" (für Zufallszahlen) eingebunden.
@@ -35,19 +33,16 @@ In diesem Fall wird das Paket "fmt" (für Formatierungen wie Println) und das Pa
 Nach Konvention ist der **Name eines Pakets identisch mit dem letzten Element seines Importpfads**:
 
 - Der Import:
-
  	```go
   	import "math/rand"
 	```
 
 Die Quelldateien dieses Pakets beginnen daher mit:
-
-	```go
-	package rand
-	```
+```go
+package rand
+```
 
 Das bedeutet: Obwohl der vollständige Importpfad "math/rand" lautet, wird im Code nur der Kurzname rand verwendet:
-
 	```go
 	rand.Intn(100) // Zugriff auf eine Funktion des Pakets rand
 	```
