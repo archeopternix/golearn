@@ -1,4 +1,4 @@
-# 🐣 Tag 0: Was ist Go? Und warum ist es ideal für Einsteiger?
+# 🐣 Was ist Go? Und warum ist es ideal für Einsteiger?
 
 Herzlich willkommen zum Go-Lernpfad! Bevor wir loslegen, klären wir heute die wichtigsten Fragen:
 

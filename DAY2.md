@@ -1,4 +1,4 @@
-# 📅 Tag 2: Go-Umgebung auf Replit einrichten
+# 📅 Go-Umgebung auf Replit.com einrichten
 
 Willkommen zum ersten Tag deines Go-Lernplans! Heute lernst du, wie du Go direkt im Browser mit Replit verwendest – ganz ohne Installation. 
 Als besonderer Bonus hilft Dir Replit mit einer KI Fehler zu finden und den Code sinnvoll zu ergänzen
