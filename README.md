@@ -27,14 +27,14 @@ Der Zeitaufwand bewegt sich zwischen 10-60 Minuten pro Tag.
 
 ---
 
-## 📘 Woche 2: Funktionen & Kontrollstrukturen
+## 📘 Woche 2: Kontrollstrukturen
 
 ### Inhalte
-- Funktionen
-- Kontrollstrukturen (if, switch, for, range)
+- [🔁 Schleifen in Go: `for`](W2for.md)
+
 
 ### Ressourcen
-- [Go by Example](https://gobyexample.com/)
+- [Tour of Go - Flow Control](https://go.dev/tour/flowcontrol/1)
 
 ### Übung
 - CLI-Taschenrechner mit Benutzereingabe

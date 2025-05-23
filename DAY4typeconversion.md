@@ -35,6 +35,10 @@ func main() {
 - Eine neue Variable vom Typ `int` anlegst und den Wert der ersten Variable konvertierst (float64 → int)
 - Diese neue Variable mit `fmt.Println()` ausgibst
 
+
+
+### ▶️ Lösung
+
 Das Programm wird so aussehen:
 ```go
 package main
@@ -50,8 +54,7 @@ func main() {
 }
 ```
 
-### ▶️ Ergebnis
-Das Ergebnis wird folgendermaßen aussehen:
+Du wirst folgendes Ergebnis erhalten:
 ```go
 55.67
 55
