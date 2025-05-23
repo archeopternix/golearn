@@ -22,7 +22,7 @@ Diese werden jeweils in einer eigenen Zeile nach dem `import`-Statement und inne
 ```go
 import (
 	"fmt"
-    "math/rand"
+	"math/rand"
 )
 ```
 
@@ -33,10 +33,8 @@ In diesem Fall wird das Paket "fmt" (für Formatierungen wie Println) und das Pa
 Nach Konvention ist der **Name eines Pakets identisch mit dem letzten Element seines Importpfads**:
 
 - Der Import:
- 	```go
-  	import "math/rand"
-	```
- import "math/rand"
+```go
+import "math/rand"
 ```
 
 Die Quelldateien dieses Pakets beginnen daher mit:
@@ -45,9 +43,9 @@ package rand
 ```
 
 Das bedeutet: Obwohl der vollständige Importpfad "math/rand" lautet, wird im Code nur der Kurzname rand verwendet:
-	```go
-	rand.Intn(100) // Zugriff auf eine Funktion des Pakets rand
-	```
+```go
+rand.Intn(100) // Zugriff auf eine Funktion des Pakets rand
+```
 	
 So bleibt der Code übersichtlich, und es ist sofort klar, zu welchem Paket ein Funktionsaufruf gehört.
 
