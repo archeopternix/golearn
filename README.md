@@ -10,7 +10,7 @@ Der Zeitaufwand bewegt sich zwischen 10-60 Minuten pro Tag.
 ## 📚 Woche 1: Einführung in Go
 
 ### Inhalte
-- (🐣 Tag 0: Was ist Go? Und warum ist es ideal für Einsteiger?)[DAY0.md]
+- [🐣 Tag 0: Was ist Go? Und warum ist es ideal für Einsteiger?](DAY0.md)
 
 - Go installieren ([golang.org/dl](https://golang.org/dl/))
 - `go run`, `go build`, `go mod init`
