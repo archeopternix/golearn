@@ -14,6 +14,7 @@ import "fmt"
 func main() {
     fmt.Println("Hallo, Welt!")
 }
+```
 
 # 🧩 Erklärung der Bestandteile eines Go-Programms
 
