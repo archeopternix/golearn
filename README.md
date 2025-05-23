@@ -27,7 +27,7 @@ Der Zeitaufwand bewegt sich zwischen 10-60 Minuten pro Tag.
 
 ---
 
-## 📘 Woche 2: Kontrollstrukturen
+## 📘 Woche 2: Kontrollstrukturen und Webanwendung
 
 ### Inhalte
 - [🔁 Schleifen in Go: `for`](W2for.md)
