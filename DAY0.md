@@ -10,15 +10,11 @@ Herzlich willkommen zum Go-Lernpfad! Bevor wir loslegen, klären wir heute die w
 
 ---
 
-## 🎯 Warum wurde Go entwickelt?
-
-# Warum wurde Go bei Google entwickelt und welche Ziele verfolgte man?
+## 🎯 Warum wurde Go bei Google entwickelt und welche Ziele verfolgte man?
 
 Go (auch Golang genannt) wurde bei Google entwickelt, weil die Entwickler dort mit den Schwächen bestehender Programmiersprachen konfrontiert waren – insbesondere beim Aufbau und Betrieb großer, verteilter Systeme. Die Sprache wurde ab 2007 von Robert Griesemer, Rob Pike und Ken Thompson entworfen und 2009 als Open-Source-Projekt veröffentlicht.
 
 ---
-
-## 🎯 Gründe für die Entwicklung von Go bei Google
 
 ### 1. Langsame Kompilierzeiten
 
@@ -84,11 +80,57 @@ Go entstand aus echter Praxis bei Google – als Antwort auf die Skalierungsprob
 
 Wenn du Go lernst, lernst du also eine Sprache, die **speziell für die Herausforderungen moderner Entwicklerteams geschaffen wurde** – und das macht sie auch für Anfänger so wertvoll.
 
-
-
 ---
 
+## 📊 Go im weltweiten Ranking der Programmiersprachen (TIOBE-Index)
+
+Der **TIOBE-Index** misst die Popularität von Programmiersprachen basierend auf Faktoren wie der Anzahl erfahrener Entwickler, Suchanfragen, Kursangeboten und Drittanbieter-Support.
+
+### 📈 Position von Go im TIOBE-Index - Mai 2025 vs. Mai 2024
+
+- **May 2025**: Go erreichte Platz **7** – die bisher höchste Position.
+- **2025 insgesamt**: Go legte um **+1,1 %** zu – ein Zeichen wachsender Beliebtheit.
+
+
+| Platz 2025 | Platz 2024 | Veränderung | Programmiersprache       | Anteil 2025 | Veränderung |
+|------------|-------------|-------------|---------------------------|-------------|-------------|
+| 1          | 1           | —           | Python                    | 25.35%      | +9.02%      |
+| 2          | 3           | ↑           | C++                       | 9.94%       | +0.41%      |
+| 3          | 2           | ↓           | C                         | 9.71%       | -0.27%      |
+| 4          | 4           | —           | Java                      | 9.31%       | +0.62%      |
+| 5          | 5           | —           | C#                        | 4.22%       | -2.27%      |
+| 6          | 6           | —           | JavaScript                | 3.68%       | +0.66%      |
+| 7          | 8           | ↑           | Go                        | 2.70%       | +1.10%      |
+| 8          | 7           | ↓           | Visual Basic              | 2.62%       | +0.61%      |
+| 9          | 11          | ↑           | Delphi/Object Pascal      | 2.29%       | +1.05%      |
+| 10         | 9           | ↓           | SQL                       | 1.90%       | +0.45%      |
+| 11         | 10          | ↓           | Fortran                   | 1.78%       | +0.53%      |
+| 12         | 24          | ↑           | R                         | 1.46%       | +0.71%      |
+| 13         | 22          | ↑           | Ada                       | 1.42%       | +0.58%      |
+| 14         | 17          | ↑           | Scratch                   | 1.35%       | +0.42%      |
+| 15         | 16          | ↑           | PHP                       | 1.22%       | +0.25%      |
+| 16         | 30          | ↑           | Perl                      | 1.20%       | +0.63%      |
+| 17         | 14          | ↓           | MATLAB                    | 1.02%       | -0.05%      |
+| 18         | 12          | ↓           | Assembly Language         | 0.97%       | -0.10%      |
+| 19         | 18          | ↓           | Rust                      | 0.94%       | +0.01%      |
+| 20         | 20          | —           | COBOL                     | 0.88%       | +0.03%      |
+
+Quellen:
+- [tiobe.com – offizieller Index](https://www.tiobe.com/tiobe-index/)
+- [InfoWorld Bericht](https://www.infoworld.com/article/3603508/go-language-rises-in-tiobe-popularity-index.html)
+- [AppMaster News](https://appmaster.io/news/go-programming-language-tiobe-top-10)
+- [JetBrains Entwicklerumfrage 2024](https://blog.jetbrains.com/research/2025/04/is-golang-still-growing-go-language-popularity-trends-in-2024/)
+
+
+### 🧠 Fazit
+
+Go verzeichnet kontinuierliches Wachstum und etabliert sich als wichtige Sprache für moderne Softwareentwicklung, besonders im Cloud- und Backend-Bereich.
+
+
+
 ## ⚖️ Wie unterscheidet sich Go von anderen Sprachen?
+
+
 
 | Sprache     | Eigenschaften                                                                 |
 |-------------|--------------------------------------------------------------------------------|
