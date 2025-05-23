@@ -15,7 +15,8 @@ Der Zeitaufwand bewegt sich zwischen 10-60 Minuten pro Tag.
 - [📅 Go-Umgebung auf Replit einrichten](DAY2.md)
 - [📦 Aufbau eines Go-Programms (Pakete)](DAY3packages.md)
 - [🔧 Funktionen in Go (`func`)](DAY3functions.md)
-- [🔓 Sichtbarkeit und exportierte Namen in Go](DAY3visibility.md)
+- [📌 Sichtbarkeit und exportierte Namen in Go](DAY3visibility.md)
+- [🔒 Konstanten in Go (Golang)](DAY4constants.md)
 
 
 - Syntax: Variablen, Konstanten, Datentypen

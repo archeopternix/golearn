@@ -1,4 +1,4 @@
-# 🔓 Sichtbarkeit und exportierte Namen in Go
+# 📌 Sichtbarkeit und exportierte Namen in Go
 
 In Go ist ein Name **exportiert**, wenn er mit einem **Großbuchstaben** beginnt. Das heisst, das
 Du nur innerhalb des Paketes auf **nicht exportiert** Namen zugreifen kannst. Dies hilft Dir, bei großen Programmen
