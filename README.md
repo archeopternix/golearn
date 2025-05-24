@@ -7,9 +7,10 @@ Der Zeitaufwand bewegt sich zwischen 10-60 Minuten pro Tag.
 
 ---
 
-## 📚 Woche 1: Einführung in Go
+## 📚 Block 1: Einführung in Go
 
 ### Inhalte
+- [🖥️ Wie funktioniert ein Computer und was machen Programmiersprachen?](W1computebasics.md)
 - [🐣 Was ist Go? Und warum ist es ideal für Einsteiger?](DAY0.md)
 - [🧱 Aufbau eines einfachen Go-Programms](DAY1.md)
 - [📅 Go-Umgebung auf Replit einrichten](DAY2.md)
@@ -24,10 +25,9 @@ Der Zeitaufwand bewegt sich zwischen 10-60 Minuten pro Tag.
 ### Ressourcen
 - [Tour of Go - Basics](https://go.dev/tour/basics/1)
 
-
 ---
 
-## 📘 Woche 2: Kontrollstrukturen und Webanwendung
+## 📘 Block 2: Kontrollstrukturen und Webanwendung
 
 ### Inhalte
 - [🔁 Schleifen in Go: `for`](W2for.md)
