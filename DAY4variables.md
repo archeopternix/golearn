@@ -7,18 +7,23 @@ In Go brauchst du **Variablen**, um Werte zu speichern, die sich im Laufe des Pr
 - Zahlen ohne `.` als Dezimalzeichen werden von Go immer als Ganzzahl `int` verstanden.
 - Wahrheitswerte vom typ `bool` können die Werte `true` oder `false` annehmen
 
+Eine *Variable* wird im (Haupt-)Speicher unter einer *Adresse* angelegt, damit wir diese wiederfinden. Jede Variable hat einen Typ der festlegt wieviel Speicher genau dafür reserviert werden soll, damit sich Variablen nicht gegenseitig überschreiben.  
+      
+| Alter int          |        
+|--------------------|          
+| Wert:      42      |          
+| Adresse: 0xA1B2C3  |      
+
+Die Variable *Alter* vom Type *int* ist an der Speicheradresse *0xA1B2C3* angelegt und hat den Wert *42*
 
 ## 🛠️ Deklaration einer Variable
 
 ### 1. Mit `var`:
 
 ```go
-var name string
-name = "Gopher"
+var Alter int
+Alter = 42
 ```
-
-- Hier wird eine Variable `name` vom Typ `string` deklariert.
-- Später wird ihr der Wert `"Gopher"` zugewiesen.
 
 ---
 
