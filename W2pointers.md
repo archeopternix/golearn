@@ -1,10 +1,16 @@
-# Pointers
+# Zeiger auf Variablen: *Pointers*
 
-In Go sind Pointer ein zentrales Konzept, um effizient mit Speicher und Datenstrukturen zu arbeiten.
+In Go sind Pointer ein wichtiges Konzept, um effizient mit Speicher und Datenstrukturen zu arbeiten. Bis jetzt haben wir *Variablen* (string, int, bool..) kennengelernt, die, wenn wir sie anlegen direkt den Wert speichern, den wir Ihnen geben.
 
 ## Was ist ein Pointer?
 
-Ein Pointer ist eine Variable, die die Speicheradresse einer anderen Variable speichert – anstatt den Wert direkt zu halten, verweist er auf den Speicherort des Wertes. In Go wird ein Pointer durch das Präfix `*` deklariert.
+Ein Pointer ist auch eine Variable, die aber die Speicheradresse einer anderen Variable speichert – anstatt den Wert direkt zu halten, verweist der Pointer auf den Speicherort des Wertes. In Go wird ein Pointer durch das Präfix `*` deklariert.
+
++-----------+
+|   alter   |
++-----------+
+|    30     |  <-- Das ist der Wert
++-----------+
 
 *Beispiel:*
 ```go
