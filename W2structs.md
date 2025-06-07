@@ -1,6 +1,15 @@
 # Benutzerdefinierte Datentypen: Struct(s)
 
-Structs (Strukturen) sind in Go benutzerdefinierte Datentypen, die es erlauben, mehrere Werte unterschiedlichen Typs unter einem Namen zusammenzufassen. Sie sind vergleichbar mit "Klassen ohne Methoden" aus anderen Programmiersprachen und ideal, um komplexe Datenmodelle zu erstellen.
+Structs (Strukturen) sind in Go benutzerdefinierte Datentypen, die es erlauben, mehrere Werte unterschiedlichen Typs unter einem Namen zusammenzufassen. Sie sind ideal, um komplexe Datenmodelle zu erstellen. Ein *struct* dient dabei als Bauplan, gleich wie die eingebauten Datentypen (int, string, bool...) für einen Variable und kann selber keine Werte halten und muss daher immer mit einer Variablen deklariert werden.
+
+Ohne Structs müssten wir zusammengehörige Variablen mit eine Namenskonvention versehen:
+
+```go
+var PersonenName string
+var PersonenAlter int
+```
+
+Dies würde den Sourcecode schwer lesbar machen und zu vielen Fehlern führen. So kann man inhaltlich zusammengehörige Werte / Variablen unter einem gemeinsamen 'Klassennamen' bündeln.
 
 ## Deklaration eines Structs
 Ein Struct wird mit dem Schlüsselwort type und struct deklariert:
@@ -13,6 +22,8 @@ type Person struct {
 ```
 
 Hier wird ein Struct Person definiert, das zwei Felder hat: Name (Typ string) und Alter (Typ int).
+
+*type* weist uns darauf hin, dass wir einen neuen *Typ* definieren, der für Variablen und Funktinsparameter genutzt werden kann. In gewisser Art und Weise erweitern wir die in *Go* eingebauten Datentypen damit um selbst erstellte Typen.  
 
 ## Verwendung eines Structs
 Um ein Struct zu verwenden, erstellt man eine Variable dieses Typs und weist den Feldern Werte zu:
@@ -54,6 +65,14 @@ func aelterWerden(person *Person) {
     person.Alter++
 }
 ```
+
+## Übung:
+
+* Erstelle einen neue 'main.go' Datei
+* Erstelle darin ein *struct* mit dem Namen *Adresse*, die Felder für Land, Stadt/Ort, Postleitzahl, Straße und Hausnummer enthält.
+* Erstelle eine Variable mit diesem Typ und weise ihr die Werte für Deine Adresse zu.
+* Zum Schluss gibst Du die Variable mit fmt.Println( *Variablenname*) aus
+
 
 ## Zusammenfassung:
 Structs in Go sind ein zentrales Mittel, um Daten logisch zu gruppieren und übersichtlich zu organisieren. Sie sind einfach zu definieren und flexibel einsetzbar, z.B. um Personen, Adressen oder beliebige andere Objekte abzubilden.
