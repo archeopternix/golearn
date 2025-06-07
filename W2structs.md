@@ -73,6 +73,8 @@ func aelterWerden(person *Person) {
 * Erstelle eine Variable mit diesem Typ und weise ihr die Werte für Deine Adresse zu.
 * Zum Schluss gibst Du die Variable mit fmt.Println( *Variablenname*) aus
 
+*Hinweis:* Variablen- und Feldnamen dürfen keine Umlaute und Sonderzeichen wie 'ß' enthalten. Denke daran dass Du die Feldnamen der Struct groß schreibst, sonst kannst Du (noch)nicht darauf zugreifen.
+
 
 ## Zusammenfassung:
 Structs in Go sind ein zentrales Mittel, um Daten logisch zu gruppieren und übersichtlich zu organisieren. Sie sind einfach zu definieren und flexibel einsetzbar, z.B. um Personen, Adressen oder beliebige andere Objekte abzubilden.
