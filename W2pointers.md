@@ -18,12 +18,11 @@ Jede Variable wird im Speicher angelegt und hat eine *Adresse* um sie wiederzufi
 | Adresse: 0xFB0023     |
 
 Zeigt auf eine *Variable* im Speicher
-+--------------------+         
+      
 | int                |        
 |--------------------|          
 | Wert:      42      |          
-| Adresse: 0xA1B2C3  |          
-+--------------------+         
+| Adresse: 0xA1B2C3  |                
 
 Erklärung:
 - *int* ist eine Variable vom Typ int und speichert direkt den Wert (z.B. 42).
