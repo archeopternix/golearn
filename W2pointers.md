@@ -26,12 +26,12 @@ Zeigt auf eine *Variable* im Speicher
 
 Erklärung:
 - *int* ist eine Variable vom Typ int und speichert direkt den Wert (z.B. 42).
-- *Alter* ist ein Pointer, der die Adresse von intVar speichert (z.B. 0xA1B2C3).
+- *Alter* ist ein Pointer auf einen Integer (int), der die Adresse von *int* speichert (z.B. 0xA1B2C3).
 
 *Beispiel:*
 ```go
 var a int = 42
-var p *int = &a // p ist ein Pointer auf a
+var Alter *int = &a // p ist ein Pointer auf a
 ```
 
 * &a gibt die Adresse von a zurück.
@@ -39,11 +39,11 @@ var p *int = &a // p ist ein Pointer auf a
 * *p gibt den Wert zurück, auf den p zeigt (also 42).
 
 ## Warum Pointers verwenden?
-* Sie ermöglichen es, Funktionen Referenzen auf Werte zu übergeben (statt Kopien).
-* Sie sind notwendig, um veränderbare Datenstrukturen wie Slices, Maps oder eigene Structs effizient zu nutzen.
+* Sie ermöglichen es, Funktionen Referenzen auf Werte zu übergeben (statt Kopien), somit wirken sich Änderungen direkt auf die darunterliegenden Werte aus.
+* Sie sind notwendig, um veränderbare komplexe Datenstrukturen wie Slices, Maps oder eigene Structs effizient zu nutzen.
 * Sie helfen, Speicher zu sparen und Performance zu verbessern.
 
-## Beispiel: Pointer als Funktionsparameter
+## Pointer als Funktionsparameter
 
 ```go
 func increment(n *int) {
@@ -58,6 +58,10 @@ func main() {
 ```
 
 Hier wird nicht die Kopie von x erhöht, sondern der Wert an der Adresse, auf die n zeigt.
+
+### Übung:
+* Schreibe dieses Beispiel so um, dass kein Pointer übergeben wird und vergleiche das Ergebnis.
+* Nun füge noch nach ans Ende der func increment... eine fmt.Println(n) ein und schaue Dir die Ausgabe nochmal an
 
 ## Null-Pointer (nil)
 Ein Pointer, der auf nichts zeigt, hat den Wert nil. Das sollte vor der Benutzung überprüft werden:
