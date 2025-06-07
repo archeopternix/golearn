@@ -16,6 +16,7 @@ Ein Pointer ist auch eine Variable, die aber die Speicheradresse einer anderen V
 ```go
 var a int = 42
 var p *int = &a // p ist ein Pointer auf a
+```
 
 * &a gibt die Adresse von a zurück.
 * p speichert diese Adresse.
@@ -28,6 +29,7 @@ var p *int = &a // p ist ein Pointer auf a
 
 ## Beispiel: Pointer als Funktionsparameter
 
+```go
 func increment(n *int) {
     *n = *n + 1
 }
@@ -37,16 +39,19 @@ func main() {
     increment(&x)
     fmt.Println(x) // Ausgabe: 6
 }
+```
 
 Hier wird nicht die Kopie von x erhöht, sondern der Wert an der Adresse, auf die n zeigt.
 
 ## Null-Pointer (nil)
 Ein Pointer, der auf nichts zeigt, hat den Wert nil. Das sollte vor der Benutzung überprüft werden:
 
+```go
 var p *int
 if p == nil {
     fmt.Println("Pointer ist nil")
 }
+```
 
 ## Zusammenfassung:
 Pointer sind in Go sicherer und einfacher als in vielen anderen Sprachen, da Go keine Pointer-Arithmetik wie C erlaubt. Sie sind jedoch essenziell, um Go effizient und idiomatisch zu nutzen.
