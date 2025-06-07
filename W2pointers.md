@@ -11,12 +11,11 @@ Ein Pointer ist auch eine Variable, die aber die Speicheradresse einer anderen V
 Jede Variable wird im Speicher angelegt und hat eine *Adresse* um sie wiederzufinden. An dieser *Adresse* im Speicher wird dann der *Wert* abgespeichert.
 
 *Pointer*:
-+-----------------------+
+
 | var Alter *int        |
 |-----------------------|
 | Wert: 0xA1B2C3        |
 | Adresse: 0xFB0023     |
- +-----------------------+
 
 Zeigt auf eine *Variable* im Speicher
 +--------------------+         
