@@ -10,19 +10,25 @@ Ein Pointer ist auch eine Variable, die aber die Speicheradresse einer anderen V
 
 Jede Variable wird im Speicher angelegt und hat eine *Adresse* um sie wiederzufinden. An dieser *Adresse* im Speicher wird dann der *Wert* abgespeichert.
 
-Variable vs. Pointer in Go
+*Pointer*:
++-----------------------+
+| var Alter *int        |
+|-----------------------|
+| Wert: 0xA1B2C3        |
+| Adresse: 0xFB0023     |
+ +-----------------------+
 
-Variable
-+--------------------+          +-----------------------+
-| var Alter int      |          | var Alter *int        |
-|--------------------|          |-----------------------|
-| Wert:      42      |          | Wert: 0xA1B2C3        |
-| Adresse: 0xA1B2C3  |          | Adresse: 0xFB0023     |
-+--------------------+          +-----------------------+
+Zeigt auf eine *Variable* im Speicher
++--------------------+         
+| int                |        
+|--------------------|          
+| Wert:      42      |          
+| Adresse: 0xA1B2C3  |          
++--------------------+         
 
 Erklärung:
-- intVar ist eine Variable vom Typ int und speichert direkt den Wert (z.B. 42).
-- ptr ist ein Pointer, der die Adresse von intVar speichert (z.B. 0xA1B2C3).
+- *int* ist eine Variable vom Typ int und speichert direkt den Wert (z.B. 42).
+- *Alter* ist ein Pointer, der die Adresse von intVar speichert (z.B. 0xA1B2C3).
 
 *Beispiel:*
 ```go
