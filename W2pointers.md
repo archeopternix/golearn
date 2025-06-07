@@ -14,11 +14,10 @@ Variable vs. Pointer in Go
 
 Variable
 +--------------------+          +-----------------------+
-| *Variable*         |          | *Pointer*             |
-| var Alter int      |   42     | var Alter *int        |
-|--------------------|----------|-----------------------|
-| Wert:      42      |          | Zeigt auf Adresse von |
-| Adresse: 0xA1B2C3  | <------> | intVar: 0xA1B2C3      |
+| var Alter int      |          | var Alter *int        |
+|--------------------|          |-----------------------|
+| Wert:      42      |          | Wert: 0xA1B2C3        |
+| Adresse: 0xA1B2C3  |          | Adresse: 0xFB0023     |
 +--------------------+          +-----------------------+
 
 Erklärung:
