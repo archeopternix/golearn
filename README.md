@@ -34,6 +34,7 @@ Der Zeitaufwand bewegt sich zwischen 10-60 Minuten pro Tag.
 - [🔁 Schleifen in Go: `for`](W2for.md)
 - [🔸 Bedingungen in Go: `if` und `if...else`](W2if.md)
 - [❓ `switch` in Go – Einfache Fallunterscheidung](W2switch.md)
+- [🧱 Benutzerdefinierte Datentypen in Go: Struct(s)](W2structs.md)
 
 
 ### Ressourcen
