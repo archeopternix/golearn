@@ -1,4 +1,4 @@
-# Benutzerdefinierte Datentypen: Struct(s)
+# 🧱 Benutzerdefinierte Datentypen: Struct(s)
 
 Structs (Strukturen) sind in Go benutzerdefinierte Datentypen, die es erlauben, mehrere Werte unterschiedlichen Typs unter einem Namen zusammenzufassen. Sie sind ideal, um komplexe Datenmodelle zu erstellen. Ein *struct* dient dabei als Bauplan, gleich wie die eingebauten Datentypen (int, string, bool...) für einen Variable und kann selber keine Werte halten und muss daher immer mit einer Variablen deklariert werden.
 
