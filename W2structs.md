@@ -5,8 +5,8 @@ Structs (Strukturen) sind in Go benutzerdefinierte Datentypen, die es erlauben, 
 Ohne Structs müssten wir zusammengehörige Variablen mit eine Namenskonvention versehen:
 
 ```go
-var PersonenName string
-var PersonenAlter int
+var PersonName string
+var PersonAlter int
 ```
 
 Dies würde den Sourcecode schwer lesbar machen und zu vielen Fehlern führen. So kann man inhaltlich zusammengehörige Werte / Variablen unter einem gemeinsamen 'Klassennamen' bündeln.
@@ -73,7 +73,7 @@ func aelterWerden(person *Person) {
 * Erstelle eine Variable mit diesem Typ und weise ihr die Werte für Deine Adresse zu.
 * Zum Schluss gibst Du die Variable mit fmt.Println( *Variablenname*) aus
 
-*Hinweis:* Variablen- und Feldnamen dürfen keine Umlaute und Sonderzeichen wie 'ß' enthalten. Denke daran dass Du die Feldnamen der Struct groß schreibst, sonst kannst Du (noch)nicht darauf zugreifen.
+*Hinweis:* Variablen- und Feldnamen dürfen keine Umlaute und Sonderzeichen wie 'ß' enthalten. Denke daran dass Du die Feldnamen der Struct groß schreibst, sonst kannst Du (noch) nicht darauf zugreifen.
 
 
 ## Zusammenfassung:
